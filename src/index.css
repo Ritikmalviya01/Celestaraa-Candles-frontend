@@ -1,0 +1,36 @@
+/* 1️⃣ Load Your Custom Fonts */
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CormorantGaramond";
+  src: url("../src/assets/fonts/CormorantGaramond-Regular.ttf") format("truetype");
+}
+
+/* 2️⃣ Import Tailwind */
+@import "tailwindcss";
+
+/* 3️⃣ Define Custom Theme Variables (Tailwind v4 syntax) */
+@theme {
+  --font-text: "Poppins", sans-serif;
+  --font-heading: "CormorantGaramond", serif;
+    --color-primary: #4F382E;   /*Mocha Brown */
+  --color-primary2: #F2EAE2; /* Warm Linen Beige: */
+  --color-primary1: #E3D9CC;    /* Sandy Tan */
+  --color-primary3: #B7C2A3; 
+  --color-bg: #F2EAE1;   /* Soft Sage Green */
+  --footer-skin-color-bg:#F2EAE1;
+}
+
+.prose img {
+  margin: 2rem auto; /* Example */
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+ .cardMainRight::-webkit-scrollbar{
+    display: none;
+ }
