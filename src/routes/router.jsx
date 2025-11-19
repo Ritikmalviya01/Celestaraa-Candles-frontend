@@ -7,7 +7,7 @@ import Login from "../pages/Login";
 import SingleCandleDetails from "../Modules/user/pages/SingleCandleDetails";
 import Cart from "../Modules/user/pages/Cart";
 import CandleBlog from "../Modules/user/pages/CandleBlog";
-import Signup from "../pages/SignUp";
+import Signup from "../pages/Signup";
 import AdminDashHome from "../Modules/admin/pages/AdminDashHome";
 import DashBoard from "../Modules/admin/pages/DashBoard";
 import AdminSideBar from "../layout/AdminSideBar";
